@@ -3,7 +3,7 @@ HW03
 ## 1. 實驗題目
 設計一段c程式，並觀察程式運作時，記憶體和register的變動，及c語言中的function是如何運作
 ## 2. 實驗步驟
-1. 先將資料夾 gnu-mcu-eclipse-qemu 完整複製到 ESEmbedded_HW02 資料夾中
+1. 先將資料夾 gnu-mcu-eclipse-qemu 完整複製到 ESEmbedded_HW03 資料夾中
 
 2. 設計測試程式 main.c 
 
