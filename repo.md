@@ -21,14 +21,13 @@ void reset_handler(void)
 	while (1);
 }
 ```
+程式中用兩種方式去回傳參數，function `add` 是return by value，而function `addp` 則是return by referance
 
-3. 在編譯完程式後，用objdump來觀察
-
-
-
-![](https://github.com/kentlincku/ESEmbedded_HW02/blob/master/push-1.png)
-
-
+3. 在編譯完程式後，用objdump與qemu來觀察
+![](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/add.png)
+![](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/reset_handler.png)
+![](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/addp.png)
+![](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/loadsummand.png)
 
 ## 3. 結果與討論
 
