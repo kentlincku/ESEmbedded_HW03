@@ -7,7 +7,7 @@ HW03
 
 2. 設計測試程式 main.c 
 
-main.c:```
+main.c:```c
 int adder=9;
 int add(int a, int b){return a+b;}
 void addp(int *a, int *b, int *c){*c=*a+*b;}
