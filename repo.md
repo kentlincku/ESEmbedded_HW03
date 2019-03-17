@@ -19,7 +19,8 @@ void reset_handler(void)
 	sum=0;
 	addp(&adder, &beadd, &sum);
 	while (1);
-}```
+}
+```
 
 3. 在編譯完程式後，用objdump來觀察
 
