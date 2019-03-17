@@ -25,8 +25,8 @@ void reset_handler(void)
 
 3. 在編譯完程式後，用objdump與qemu來觀察
 ![](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/add.png)
-![](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/reset_handler.png)
 ![](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/addp.png)
+![](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/reset_handler.png)
 ![](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/loadsummand.png)
 
 ## 3. 結果與討論
