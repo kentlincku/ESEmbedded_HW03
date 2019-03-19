@@ -25,9 +25,10 @@ void reset_handler(void)
 
 3. 在編譯完程式後，用objdump與qemu來觀察
 ![](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/add.png)
-![](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/addp.png)
+![](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/addbad.png)
 ![](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/reset_handler.png)
-![](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/loadsummand.png)
+![](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/gdb.png)
 
 ## 3. 結果與討論
 
+1. 在程式中，為了測試C語言中的function會如何表現，用c語言寫了簡單的function`int add(int a, int b){return a+b;}`
