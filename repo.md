@@ -50,11 +50,13 @@ void addp(int *a, int *b, int *c){*c=*a+*b;}
 預先將用到的參數傳到register內
 
 2. 如果是以return by value的方式來傳遞時，register中存的是數值，可以直接進行加法
-```16:	4413      	add	r3, r2
+```
+16:	4413      	add	r3, r2
 ```
 而如果是以pointer的行式為參數時，register中是位址，會先經過`ldr`將位址中的值取出，最後再將數值存回
 
 3. 如果是return by value，則因為register在function結束時，function中對由讀取參數register的變動都不會存至記憶體，因此
-```int addbad(int a, int b, int c){return c;}
+```
+int addbad(int a, int b, int c){return c;}
 ```
 中的`c`將會是原本的值而不會變動
