@@ -35,7 +35,8 @@ void reset_handler(void)
 ## 3. 結果與討論
 
 在程式中，為了測試C語言中的function會如何表現，簡單的設計了三個function
-```int add(int a, int b){return a+b;}
+```
+int add(int a, int b){return a+b;}
 int addbad(int a, int b, int c){return c;}
 void addp(int *a, int *b, int *c){*c=*a+*b;}
 ```
@@ -45,7 +46,8 @@ void addp(int *a, int *b, int *c){*c=*a+*b;}
 7e:	f7ff ffc3 	bl	8 <add>
 ```
 前，會先有
-```7a:	4610      	mov	r0, r2
+```
+7a:	4610      	mov	r0, r2
 7c:	4619      	mov	r1, r3
 ```
 預先將用到的參數傳到register內
