@@ -8,7 +8,8 @@ HW03
 2. 設計測試程式 main.c 
 
 main.c:
-```int add(int a, int b){return a+b;}
+```
+int add(int a, int b){return a+b;}
 int addbad(int a, int b, int c){return c;}
 void addp(int *a, int *b, int *c){*c=*a+*b;}
 void reset_handler(void)
