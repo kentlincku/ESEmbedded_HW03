@@ -54,4 +54,4 @@ This is the hw03 sample. Please follow the steps below.
 --------------------
 
 **★★★ Please take your note here ★★★**
-https://github.com/kentlincku/ESEmbedded_HW03/blob/master/repo.md](https://github.com/kentlincku/ESEmbedded_HW03/blob/master/repo.md)
+view:https://github.com/kentlincku/ESEmbedded_HW03/blob/master/repo.md
